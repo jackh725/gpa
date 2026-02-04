@@ -75,7 +75,7 @@
         const row = document.createElement("tr");
         row.innerHTML = `
             <td><input type="number" class="cp" value="15" step="15" min="0"></td>
-            <td><input type="text" class="score" placeholder="e.g., 75 or B"></td>
+            <td><input type="text" class="score" placeholder="e.g., 85 or A"></td>
             <td><button class="delete-btn" onclick="removeRow(this)">Remove</button></td>
         `;
         tbody.appendChild(row);
@@ -95,7 +95,7 @@
         tbody.innerHTML = `
             <tr>
                 <td><input type="number" class="cp" value="15" step="15" min="0"></td>
-                <td><input type="text" class="score" placeholder="e.g., 85, HD, or B"></td>
+                <td><input type="text" class="score" placeholder="e.g., 85, A, or P"></td>
                 <td><button class="delete-btn" onclick="removeRow(this)">Remove</button></td>
             </tr>
         `;
